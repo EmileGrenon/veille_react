@@ -1,4 +1,0 @@
-[
-    {"id": 1, "nom" : "cuillere", "description": "only a spoonfull", "prix": 10, "image" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tzanet.com%2Fs-s-oxford-dessert-spoon-18-0&psig=AOvVaw31CtUbmlWwXXIhLYjV9jfW&ust=1684014430295000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiikOHg8P4CFQAAAAAdAAAAABAH"},
-    {"id": 2, "nom" : "couteau", "description": "bon pour le pain", "prix": 100, "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fboutique.ricardocuisine.com%2Ffr%2Fcouteau-de-chef-ultraleger-ricardo.html&psig=AOvVaw1E_2ia6di_vYbc7-w2-pEF&ust=1684014385258000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLisv8vg8P4CFQAAAAAdAAAAABAH"}
-]

@@ -1,8 +1,0 @@
-
-    [
-        {"nom": "pointe", "description": "pointed", "latitude": 45.49843036498788, "longitude": -73.96993205045818, "color": "red"},
-        {"nom": "trou", "description": "troud", "latitude": 45.72206261776532, "longitude": -73.44922944521521, "color": "blue"},
-        {"nom": "cow", "description": "cowd", "latitude": 45.6898850630112, "longitude": -73.67526856661827, "color": "green"},
-        {"nom": "gore", "description": "gored", "latitude": 45.76723474712495, "longitude": -74.24982829067115, "color": "yellow"},
-        {"nom": "centre", "description": "centred","latitude" : 45.540705342072364, "longitude" : -73.90227315739668, "color" : "purple"}
-    ]
