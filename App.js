@@ -123,10 +123,6 @@ const createTable=() => db.transaction((tx)=> { tx.executeSql("CREATE TABLE IF N
     tx.executeSql("CREATE TABLE IF NOT EXISTS " +
     "Connexion (usager TEXT PRIMARY KEY, mdp TEXT, admin BOOLEAN);");});
 
-var ctx;
-
-var name = " ";
-
 export default function App() {
   //connexion
   const userInit ={usager:"", mdp: "", admin: false, connected: false}
