@@ -78,6 +78,9 @@ export default function App() {
     }
     return false;
   }
+  function takePhoto() {
+    console.log("test");
+  }
   const ConnectView = () => <View>
   <Text>Connection</Text>
   <Connect connectUser={connectUser}/>
@@ -88,7 +91,12 @@ const AproposView = () => <View>
 </View>
 
 function ProfilView() {
-  return <View><Text>test: {usager}</Text></View>
+  return( 
+  <View style={styles.container}>
+  <Pressable onPress={takePhoto} style={styles.pressable}>
+    <Image source={require("./default.png")} style={styles.image}/>
+  </Pressable>
+</View>)
 } 
 
 
@@ -119,11 +127,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   submit: {
     backgroundColor: '#00ccff',
-    width: 'auto',
+    width: 'auto'
   
   },
   remove: {
@@ -131,6 +139,15 @@ const styles = StyleSheet.create({
   },
   icon: {
     width: '100%',
-    height: height/4,
-  }
+    height: height/4
+  },
+  pressable: {
+    padding: 10,
+    backgroundColor: 'lightblue'
+  },
+  image: {
+    width: 100,
+    height: 100,
+    borderRadius: 10
+  },
 });
